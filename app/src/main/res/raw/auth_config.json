@@ -1,0 +1,8 @@
+{
+  "client_id": "my-fhir-client",
+  "redirect_uri": "com.openmrs.openmrsandroidclient:/oauth2redirect",
+  "end_session_redirect_uri": "com.openmrs.openmrsandroidclient:/oauth2redirect",
+  "authorization_scope": "email",
+  "discovery_uri": "http://10.0.2.2:9080/auth/realms/test/.well-known/openid-configuration",
+  "https_required": false
+}
