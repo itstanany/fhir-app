@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reference_nav_graph"
+    app:startDestination="@id/patient_list"
+>
+
+  <fragment
+        android:id="@+id/patient_list"
+        android:label="Patient List"
+        android:name="com.openmrs.openmrsandroidclient.PatientListFragment"
+        tools:layout="@layout/patient_list_view"
+    />
+
+</navigation>
